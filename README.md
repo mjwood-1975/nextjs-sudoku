@@ -1,2 +1,2 @@
 # nextjs-sudoku
-vanilla-sudoku implemented but implemented in nextjs
+vanilla-sudoku, but implemented in nextjs
