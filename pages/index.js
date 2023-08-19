@@ -11,7 +11,9 @@ export default function HomePage() {
 	        <div>
                 <h1>Nextjs via nginx</h1>
                 <p>Breaking ground</p>
+                <p>Normalize/MDN In</p>
             </div>
+            <input type="text" />
         </Layout>
     );
 }

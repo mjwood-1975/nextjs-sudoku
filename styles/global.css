@@ -1,3 +1,10 @@
+:root {
+    --primary-color:#EEE9DA; /* beige or eggshell or whatever it is */
+    --secondary-color:#6096B4; /* "dark" blue */
+    --tertiary-color:#93BFCF; /* light blue */
+    --trim-color:#BDCDD6; /* cool gray */
+}
+
 html,
 body {
   padding: 0;
@@ -6,6 +13,7 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
   font-size: 18px;
+  background-color: var(--primary-color);
 }
 
 * {
