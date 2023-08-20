@@ -6,9 +6,11 @@
 }
 
 html,
-body {
-  padding: 0;
-  margin: 0;
+body,
+main,
+header,
+footer,
+aside {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   line-height: 1.6;
@@ -16,8 +18,20 @@ body {
   background-color: var(--primary-color);
 }
 
+header h1 {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+header h3 {
+    background-color: var(--tertiary-color);
+    color: #666;
+}
+
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 a {

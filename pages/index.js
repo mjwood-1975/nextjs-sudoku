@@ -8,12 +8,26 @@ export default function HomePage() {
                 <title>Vanilla Sudoku</title>
                 <link rel="icon" href="/images/favicon.ico" />
             </Head>
-	        <div>
-                <h1>Nextjs via nginx</h1>
-                <p>Breaking ground</p>
-                <p>Normalize/MDN In</p>
-            </div>
-            <input type="text" />
+
+            <header>
+                <h1>~Vanilla Sudoku~</h1>
+                <h3>Sometimes plain is the best flavor</h3>
+            </header>
+
+            <nav>
+                nav
+            </nav>
+
+            <main>
+                puzzle here
+                <aside>
+                    button things
+                </aside>
+            </main>
+
+            <footer>
+                <p>footer</p>
+            </footer>
         </Layout>
     );
 }
